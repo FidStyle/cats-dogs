@@ -1717,5 +1717,3 @@ typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
 
 (( ${#p10k_config_opts} )) && setopt ${p10k_config_opts[@]}
 'builtin' 'unset' 'p10k_config_opts'
-gitstatus_stop_p9k_:zle:41: No handler installed for fd 16                                                                             
-gitstatus_stop_p9k_:49: failed to close file descriptor 16: bad file descriptor
